@@ -1,0 +1,23 @@
+Suíte Acceptance: /DELETE
+	suponho que essa classe de deleção poderia estar na suíte de SmokeTest, já que cancelar uma reserva é algo normal/comum;
+	e acredito que um Statu Code 200 seria mais adequado pra ela. Porquê 201 (created) pode soar contraditório para o leitor.
+
+Suíte Acceptance: /POST
+	semelhante ao DELETE, acho que a POST também poderia estar no SmokeTest.
+	e ao contrário da DELETE, poderia retornar Status Code 201 em vez de 200.
+
+
+================================================================================
+
+
+O Campo Header "Authorization" está escrito como "Authorisation" na documentação do site https://treinamento-api.herokuapp.com/ dificultando (pra não dizer atrapalhando :P a consulta)
+
+
+
+
+
+
+
+
+
+À corrigir: Definir nomes das classes para todas em português ou todas em inglês.
